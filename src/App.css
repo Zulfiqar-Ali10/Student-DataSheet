@@ -1,0 +1,42 @@
+  .container {
+    padding: 15px;
+    text-align: center;
+    margin-left: 20%; 
+  }
+  .heading {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    color:brown;
+  }
+  
+  .header-row,
+  .data-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  .header-item,
+  .data-item {
+    font-size: 14px;
+  }
+  
+  .header-item {
+    font-weight: bold;
+    background-color: grey;
+    padding: 10px;
+    border: 1px solid grey;
+  }
+  body{
+    background-color: burlywood;
+  }
+  .data-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f0f0f0;
+  }
+  
