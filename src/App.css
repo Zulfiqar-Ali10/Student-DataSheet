@@ -1,7 +1,7 @@
   .container {
     padding: 15px;
     text-align: center;
-    margin-left: 20%; 
+    
   }
   .heading {
     font-size: 40px;
@@ -33,6 +33,11 @@
   }
   body{
     background-color: burlywood;
+    text-align: center;
+    display: flex;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: center;
   }
   .data-item {
     padding: 10px;

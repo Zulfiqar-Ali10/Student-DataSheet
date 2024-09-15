@@ -42,7 +42,8 @@ const Container = () => {
   ];
 
   return (
-    <div className="container">
+   <div className="student-datasheet">
+     <div className="container">
       <div className="heading">Zulfiqar: Student Data Sheet</div>
       <hr />
       <div className="header-row">
@@ -60,6 +61,7 @@ const Container = () => {
         </div>
       ))}
     </div>
+   </div>
   );
 };
 
